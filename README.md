@@ -1,9 +1,7 @@
 Dockerizing Flask!
 ===================
 
-
-Hey! I'm your first Markdown document in **StackEdit**[^stackedit]. Don't delete me, I'm very helpful! I can be recovered anyway in the **Utils** tab of the <i class="icon-cog"></i> **Settings** dialog.
-
+For this approch we are going to test the iTunes api JSON in order to get some albums description over a index. It's a simply task to carry out. We want to show some albums as a catalogue.
 ----------
 
 
@@ -38,7 +36,7 @@ if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0')
 ```
 
-Now, wen need to include Flask in our <kbd>requirements.txt</kbd> file:
+Now, we need to include Flask in our <kbd>requirements.txt</kbd> file:
 
 ```
 Flask==0.10.1
@@ -46,7 +44,7 @@ Flask==0.10.1
 
 Flask Dockerfile
 -------------
-We have chosen Linux image as a base.
+We have chosen Ubuntu image as a base.
 
 ```
 FROM ubuntu:16.04
